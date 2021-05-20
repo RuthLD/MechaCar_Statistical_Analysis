@@ -14,7 +14,7 @@ total_summary <- suspension_coil %>% summarise(Mean = mean(PSI), Median = median
 
 lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot)%>% summarise(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI),
                                                                             SD = sd(PSI), .groups = "keep") #create a summary table by Manufacturing Lot for the PSI column
-?t.test()
+
 all_lots <- t.test(suspension_coil$PSI, mu = 1500) # Generate the t.test for all Manufacturing Lots compared to the population mean of 1,500 pounds per square inch
 lot_1 = subset(suspension_coil, Manufacturing_Lot == 'Lot1') # Get the data for Manufacturing Lot #1 only
 lot_2 = subset(suspension_coil, Manufacturing_Lot == 'Lot2') # Get the data for Manufacturing Lot #2 only
