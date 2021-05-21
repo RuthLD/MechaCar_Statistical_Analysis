@@ -7,13 +7,13 @@ Statistical analysis of MechaCar vehicles and a study designed to compare the Me
 * The slope of the linear model would be considered as zero due to it being a incredibly small decimal.  
 * The residual standard error is 8.774 which is low for the linear model with 44 degrees of freedom. This indicates that the linear model is decent at predicting the mpg of MechaCar prototypes.
 ## Summary Statistics on Suspension Coils
+The MechaCar suspension coil design specification dictates that the variance of the suspension coils must not exceed 100 pounds per square inch.
 ![Fig_2 PSI Summary Stats.png](https://github.com/RuthLD/MechaCar_Statistical_Analysis/blob/main/Resources/Fig_2%20PSI%20Summary%20Stats.png)
-![Fig_3 PSI Lot Summary Stats.png](https://github.com/RuthLD/MechaCar_Statistical_Analysis/blob/main/Resources/Fig_3%20PSI%20Lot%20Summary%20Stats.png)
 * Fig. 2 is the summary statistics for the PSI of MechaCar suspension coils. 
+* The variance for all manufacturing lots is 62.29 based on Fig. 2 which is below the threshold for the design specification of the suspension coils.
+![Fig_3 PSI Lot Summary Stats.png](https://github.com/RuthLD/MechaCar_Statistical_Analysis/blob/main/Resources/Fig_3%20PSI%20Lot%20Summary%20Stats.png)
 * Fig. 3 is the summary statistics for the PSI of each MechaCar Manufacturing lot.
-* The MechaCar suspension coil design specification dictates that the variance of the suspension coils must not exceed 100 pounds per square inch. 
-* The variance for all manufacturing lots is 62.29 based on Fig. 2 which is below the threshold for the design specification of the suspension coils. 
-* Based on Fig. 3 the Lot 1 and Lot 2 have a small amount of variance, 0.98 and 7.47, in the suspension coils which is significantly below the design threshold. Based on Fig. 3 Lot 3 has a variance of 170.29 which is significantly over the design specification threshold. 
+* Based on Fig. 3 the Lot 1 and Lot 2 have a small amount of variance, 0.98 and 7.47, in the suspension coils which is significantly below the design threshold. Lot 3 has a variance of 170.29 which is significantly over the design specification threshold. 
 * The variance for all manufacturing lots is affected by the incredibly small variance of Lot 1 and Lot 2 which reduced the impact of the variance for Lot 3. Only Lots 1 and 2 meet the MechaCar design specification for the suspension coil.
 ## T-Tests on Suspension Coils
 ![Fig_4 All_lots t_test.png](https://github.com/RuthLD/MechaCar_Statistical_Analysis/blob/main/Resources/Fig_4%20All_lots%20t_test.png)
